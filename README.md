@@ -23,6 +23,10 @@ Your job is to create a grayscale heat map of the website that indicates which e
 * [x] Find a font/weight combination that approximates that of the original Smashing homepage and apply it to your solution.
 * [x] Push your solution to GitHub.
 
+## Livepreview
+
+Here you can see live preview on github pages --> [Preview](https://vicc30.github.io/smashing-heatmap/)
+
 ## Resources.
 
 * [Smashing magazine](https://www.smashingmagazine.com/)
