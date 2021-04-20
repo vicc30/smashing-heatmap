@@ -4,9 +4,827 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Smashing Magazine</title>
 </head>
-<body>
+<body class="page">
     
+    <!-- header for navigation logo and search form -->
+    <header class="header-nav page__header-nav">
+        <!-- logo -->
+        <a href="#" class="header-nav__logo-box">
+            <img src="https://www.smashingmagazine.com/images/logo--full.svg" alt="smashing magazine logo" aria-labelledby="logo img" class="logo">
+        </a>
+        <!-- menu -->
+        <nav class="nav header-nav__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Articles</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Guides</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Books</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Workshops</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Membership</a></li>
+                <li class="nav__item nav__item--active"><a href="#" class="nav__link">More</a></li>
+            </ul>
+        </nav>
+        <!-- search form -->
+        <form action="#" class="search-form header-nav__search-form">
+            <div class="search-form__control">
+               
+            </div>
+        </form>
+    </header>
+    <!-- main area that consists of latest articles, posts, community and more -->
+    <main class="main page__main">
+        <!-- headlined articles and latest news side bard -->
+        <section class="headline-content main__headline-content">
+            <div class="container">
+                <div class="headline-content__row">
+                    <section class="posts headline-content__posts">
+                        <article class="author-post">
+                            <div class="author-post__row">
+                                <div class="round-img round-img--lg author-post__img-box">
+                                    <img src="" alt="" class="author-post__img">
+                                </div>
+                                <div class="author-post__text-box">
+                                    <a href="#" class="author-post__link link--red">
+                                        Arihant Verma
+                                    </a>
+                                    <span class="author-post__wrote text--light-gray">wrote
+                                    </span>
+                                    <h2 class="main-heading author-post__title">
+                                        Creating An Outside Focus And Click Handler React Component
+                                    </h2>
+                                    <div class="author-post__tag-box">
+                                        <time class="author-post__date" datetime="2021-01-01">Jan 1, 2021</time>
+                                        <span class="author-post__wrote">in</span>
+                                        <div class="tags author-post__tags">
+                                            <a href="#" class="tag tag--dark-grey">
+                                                Tools, 
+                                            </a>
+                                            <a href="#" class="tag tag--dark-grey">
+                                                React, 
+                                            </a>
+                                            
+                                            <a href="#" class="tag tag--dark-grey">
+                                                JavaScript
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p class="paragraph author-post__paragraph">
+                                n this article, we’ll look at how to create an outside focus and click handler with React. We will recreate an open source react component react-foco from scratch in doing so.
+                            </p>
+                            <footer class="author-post__footer">
+                                <a href="#" class="author-post__link link--red">
+                                    Continue reading ↬
+                                </a>
+                            </footer>    
+                        </article>
+                        <article class="author-post u-mt-5">
+                            <div class="author-post__row">
+                                <div class="round-img round-img--medium author-post__img-box">
+                                    <img src="" alt="" class="author-post__img">
+                                </div>
+                                <div class="author-post__text-box">
+                                    <div class="author-post__text-box-row">
+                                        <a href="#" class="author-post__link u-m-0 author-post__link--red">
+                                            Kelvin Omereshone 
+                                        </a>
+                                        <time datetime="2020-01-01" class="author-post__date u-mx-1">
+                                            Jan 1, 2020
+                                        </time>
+                                        <span class="author-post__wrote">
+                                            in
+                                        </span>
+                                        <div class="tags author-post__tags">
+                                            <a href="#" class="tag">Apps,</a>
+                                            <a href="#" class="tag">Testing,</a>
+                                            <a href="#" class="tag">Browsers</a>
+                                        </div>
+                                    </div>
+                                    <h2 class="heading-secondary author-post__title">
+                                        The State Of Mobile And Why Mobile Web Testing Matters  
+                                    </h2>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="author-post u-mt-5">
+                            <div class="author-post__row">
+                                <div class="round-img round-img--medium author-post__img-box">
+                                    <img src="" alt="" class="author-post__img">
+                                </div>
+                                <div class="author-post__text-box">
+                                    <div class="author-post__text-box-row">
+                                        <a href="#" class="author-post__link u-m-0 author-post__link--red">
+                                            Kelvin Omereshone 
+                                        </a>
+                                        <time datetime="2020-01-01" class="author-post__date u-mx-1">
+                                            Jan 1, 2020
+                                        </time>
+                                        <span class="author-post__wrote">
+                                            in
+                                        </span>
+                                        <div class="tags author-post__tags">
+                                            <a href="#" class="tag">Apps,</a>
+                                            <a href="#" class="tag">Testing,</a>
+                                            <a href="#" class="tag">Browsers</a>
+                                        </div>
+                                    </div>
+                                    <h2 class="heading-secondary author-post__title">
+                                        The State Of Mobile And Why Mobile Web Testing Matters  
+                                    </h2>
+                                </div>
+                            </div>
+                        </article>
+                        
+                    </section>
+                    <!-- promo box -->
+                    <section class="promo-box headline-content__promo-box">
+                        <div class="promo-box__img-box">
+
+                        </div>
+                        <header class="promo-box__header">
+                            <a href="#" class="btn btn--bg-white promo-box__btn">
+                                Email Newsletter
+                            </a>
+                            <h2 class="promo-box__title">
+                                Useful front-end & UX tips, delivered once a week.
+                            </h2>
+                            <p class="promo-box__paragraph">
+                                With tools to help you get your work done better. 
+                                <a href="#" class="promo-box__link">
+                                    Subscribe and get Vitaly’s Smart Interface Design Checklists PDF
+                                </a>
+                                — in your inbox. 🎁
+                            </p>
+                        </header>
+                        <footer class="promo-box__footer">
+                            <form action="#" class="email-form promo-box__email-form">
+                                <div class="promo-box__control">
+
+                                </div>
+                            </form>
+                            <p class="promo-box__paragraph--muted">
+                                On front-end & UX. Trusted by 
+                                <output class="promo-box__subscription-amount">
+                                    190.000
+                                </output>
+                                folks
+                            </p>
+                        </footer>
+                    </section>
+                </div>
+            </div>
+            <footer class="headline-content__footer">
+                <a href="#" class="latest-articles-link">
+                    SEE ALL LATEST ARTICLES → 
+                </a>
+            </footer>
+        </section>
+        <!-- latest post -->
+        <section class="latest-posts main__latest-posts">
+            <div class="vertical-text-box latest-posts__vertical-text-box">
+                <h4 class="verticle-tert-box__title"></h4>
+            </div>
+            <div class="container">
+                <div class="latest-posts__row">
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article><article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                </div>
+                <!-- monthly subscription for premium members -->
+                <section class="community latest-posts__community">
+                    <div class="community__img-box"></div>
+                    <header class="community__header">
+                        <h2 class="community__title">
+                            #Join 1,972 Smashing Members
+                        </h2>
+                        <p class="community__paragraph">
+                            A friendly community for people who design and build the web. With books, workshops, goodies and early-birds — for just 1 coffee a month. Take a look around.
+                        </p>
+                    </header>
+                    <footer class="community__footer">
+                        <a href="#" class="btn btn--bg-green community__btn">
+                            Join the community ↬
+                        </a>
+                        <a href="#" class="community__sign-in-link">
+                            Already have an account? Sign in!
+                        </a>
+                    </footer>
+                </section>
+                <!-- latest posts -->
+                <div class="latest-posts__row">
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                    <article class="latest-post">
+                        <header class="latest-post__header">
+                            <h2 class="latest-post__title">
+                                Fresh Inspiration For March And A Smashing Winner (2021 Wallpapers Edition)
+                            </h2>
+                            <div class="latest-post__link-box">
+                                by
+                                <a href="#" class="latest-post__author-link">
+                                    Cosima Mielke
+                                 </a>
+                            </div>
+                            <p class="latest-post__paragraph">
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                                Our wallpapers post this month is a special one: There’s not only a new collection of wallpapers created by creative folks from across the globe waiting for you, but we’ll also award a 
+                            </p>
+                        </header>
+                        
+                       <footer class="latest-post__footer">
+                            <a href="#" class="latest-post__link">
+                                →
+                            </a>
+                       </footer>
+                    </article>
+                </div>
+                <footer class="latest-posts__footer">
+                    <a href="#" class="latest-articles-link">
+                        SEE ALL LATEST ARTICLES → 
+                    </a>
+                </footer>
+
+            </div>
+        </section>
+        <!-- section for book for sale -->
+        <section class="book-ad main__book-ad">
+            <div class="book-ad__container">
+                <header class="book-ad__header">
+                    <span class="book-ad__shipping-date">
+                        JUNE 2020 • SHIPPING NOW
+                    </span>
+                    <h2 class="book-ad__title">
+                        Meet “Click!”: Encourage Clicks
+                        Without Shady Tricks
+                    </h2>
+                    <p class="book-ad__paragraph">
+                        Our new book on how to boost business KPIs, build trust and address doubts effectively — without alienating people along the way. By Paul Boag.
+                    </p>
+                    <a href="#" class="btn btn--bg-white book-ad__btn">
+                        Jump to table of contents →
+                    </a>
+                </header>
+                <footer class="bok-ad__footer">
+                    <div class="book-ad__img-box">
+                        <img src="" alt="" class="book-ad__img">
+                    </div>
+                </footer>
+
+            </div>
+        </section>
+        <!-- section of comprehensive guides on various topics -->
+        <section class="guides main__guides">
+            <div class="vertical-text-box guides__vertical-text-box">
+                <h4 class="verticle-tert-box__title"></h4>
+            </div>
+            <div class="container guides__container">
+                <div class="guides__row">
+                    <article class="guide">
+                        <header class="guide__header">
+                            <span class="guide__intro">
+                            </span>
+                            <h2 class="guide__title heading-primary--green">
+                                JavaScript & Frameworks
+                            </h2>
+                            <p class="guide__paragraph">
+                                React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                            </p>
+                        </header>
+                        
+                        <footer class="guide__footer">
+                            <a href="#" class="btn btn--bg-green guide__btn">
+                                Explore JavaScript & Frameworks
+                            </a>
+                        </footer>
+                    </article>
+                    <article class="guide">
+                        <header class="guide__header">
+                            <span class="guide__intro">
+                            </span>
+                            <h2 class="guide__title heading-primary--green">
+                                JavaScript & Frameworks
+                            </h2>
+                            <p class="guide__paragraph">
+                                React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                            </p>
+                        </header>
+                        
+                        <footer class="guide__footer">
+                            <a href="#" class="btn btn--bg-green guide__btn">
+                                Explore JavaScript & Frameworks
+                            </a>
+                        </footer>
+                    </article>
+                    <article class="guide">
+                        <header class="guide__header">
+                            <span class="guide__intro">
+                            </span>
+                            <h2 class="guide__title heading-primary--green">
+                                JavaScript & Frameworks
+                            </h2>
+                            <p class="guide__paragraph">
+                                React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced JavaScript developer working with one of these frameworks, or just starting to learn, our authors have created some tutorials for you.
+                            </p>
+                        </header>
+                        
+                        <footer class="guide__footer">
+                            <a href="#" class="btn btn--bg-green guide__btn">
+                                Explore JavaScript & Frameworks
+                            </a>
+                        </footer>
+                    </article>
+                    <!-- newsletter of latest articles -->
+                    <section class="newsletter guides__newsletter">
+                        <header class="newsletter__header">
+                            <div class="newsletter__img-box">
+                                <img src="" alt="" class="newsletter__img">
+                            </div>
+                            <h2 class="newsletter__title">
+                                Email Newsletter
+                            </h2>
+                        </header>
+                        <p class="newsletter__paragraph">
+                            Every Tuesday, we send an email newsletter with useful techniques on front-end & UX. Subscribe and get a freebie: Smart Interface Design Checklists PDF — right in your inbox. 🔮
+                        </p>
+                        <form action="#" class="email-form newsletter__email-form">
+                            <div class="email-form__control">
+
+                            </div>
+                        </form>
+                        <footer class="newsletter__footer">
+                            <div class="newsletter__subscription-info">
+                                Front-end, UX and design. 1× a week.
+                                You can always unsubscribe with just 1 click.
+                            </div>
+                        </footer>
+                    </section>
+                </div>
+                
+            </div>
+            <footer class="guides__footer">
+                <a href="#" class="latest-articles-link">
+                    SEE ALL LATEST ARTICLES → 
+                </a>
+            </footer>
+        </section>
+        <!-- featured book section -->
+        <section class="featured">
+            <div class="featured__row">
+                <header class="featured__header">
+                    <span class="featured__intro"></span>
+                    <h2 class="featured__title">
+                        Design Systems
+                    </h2>
+                    <p class="featured__paragraph">
+                        Meet Design Systems, a recent Smashing book in which Alla Kholmatova explores how to set up an effective design system to create great digital products. With common traps, gotchas and lessons learned.
+                    </p>
+                    <a href="#" class="btn btn--bg-white featured__btn">
+                        Jump to table of contents ↬
+
+                    </a>
+                </header>
+                <footer class="featured__footer">
+                    <div class="featured__img-box">
+                        <img src="" alt="" class="featured__img">
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <!-- collection of latest articles  -->
+        <section class="articles-collection">
+            <div class="vertical-text-box articles-collection__vertical-text-box">
+                <h4 class="verticle-tert-box__title"></h4>
+            </div>
+            <div class="container">
+                <article class="featured-article articles-collection__featured-article">
+                    <div class="featured-article__row">
+                        <div class="round-img round-img--xl featured-article__img-box">
+                            <img src="" alt="" class="img-box__img">
+                        </div>
+                        <div class="featured-article__box">
+                            <span class="featured-article__intro"></span>
+                            <p class="featured-article__paragraph">
+                                Debbie O’Brien (@debs_obrien) has over 10 years experience in front-end development and has worked as a Tech Lead and consultant for many clients. She is a Google Developer Expert, Microsoft Most Valuable Professional, GitHub Star, Cloudinary Media Developer, and Auth0 Ambassador and loves to share her passion for JavaScript frameworks and performance with the community — contributing to Open Source, speaking at international events, or teaching at Vue School and Jamstack Explorers, for example. Thank you for sharing and caring, dear Debbie!
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <div class="articles-collection__row">
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    <article class="curated-article articles-collection__curated-article">
+                        <div class="curated-article__row">
+                            <div class="round-img round-img--sm curated-article__img-box">
+                                <img src="" alt="" class="img-box__img">
+                            </div>
+                            <section class="curated-article__text-box">
+                                <header class="curated-article__header">
+                                    <a href="#" class="curated-article__author-name">
+                                        Karolina Szczur
+                                    </a>
+                                    <h2 class="curated-article__title">
+                                        Writing A Job Ad
+                                    </h2>
+                                </header>
+                               <footer class="curated-article__footer">
+                                    <p class="curated-article__paragraph">
+                                        <time datetime="2021-03-03" class="curated-article__date">march 3, 2021</time>
+                                        — How to write a job ad that people actually want to apply for? And how can you spot a respectful, transparent job ad when you’re looking for a job? Karolina Szczur wrote a handy guide to creating great job descriptions.
+                                    </p>
+                               </footer>                              
+                            </section>
+                        </div>
+                        
+                    </article>
+                    
+                </div>
+            </div>
+            <footer class="curated-article__main-footer">
+                <a href="#" class="latest-articles-link">
+                    MORE LINKS ON TWITTER
+                </a>
+            </footer>
+        </section>
+    </main>
+    <!-- main footer -->
+    <footer class="main-footer page__main-footer">
+        <div class="container">
+            <section class="main-footer__topics">
+                <header class="main-footer__topics-header">
+                    <h4 class="main-footer__title">
+                        BROWSE ALL SMASHING MAGAZINE TOPICS
+                    </h4>
+                </header>
+                <ul class="main-footer__topics-list">
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Accessibility</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Android</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Animation</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Apps</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">CSS</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Design</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">CSS Design Patterns</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Design Systems</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">E-Commerce</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Freebies</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Graphics</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">HTML</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Illustrator</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Inspiration</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">iOS</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">JavaScript</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Mobile</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Pattern Libraries</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Performance</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Photoshop</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Plugins</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">React</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Responsive Web Design</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Service Workers</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Sketch</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Typography</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">UI</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Usability</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">User Experience</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Wallpapers</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Web Design</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">WordPress</a></li>
+                    <li class="main-footer__topics-item"><a href="#" class="main-footer__topics-link">Workflow</a></li>
+              
+                </ul>
+            </section>
+            <section class="main-footer__notes">
+                <p class="main-footer__paragraph">
+                    With a commitment to quality content for the design community.
+                </p>
+
+                <p class="main-footer__foundation-date">
+                    Founded by Vitaly Friedman and Sven Lennartz. 2006–2021.
+                </p>
+
+                <p class="main-footer__paragraph">
+                    Smashing is proudly running on Netlify.
+                </p>
+
+                <p class="main-footer__paragraph">
+                    Fonts by Latinotype.
+                </p>
+            </section>
+            <section class="main-footer__links">
+                <ul class="main-footer__links-list">
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">✎ Write for us</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">Contact us</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">About us (Impressum)</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">Privacy policy</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">Membership login</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">Delivery times</a></li>
+                    <li class="main-footer__links-item"><a href="#" class="main-footer__links-link">Advertise</a></li>
+                </ul>
+            </section>
+            <div class="main-footer__img-box">
+                <img src="" alt="">
+            </div>
+            <a href="#" class="round-img round-img--xs main-footer__to-top-btn"></a>
+        </div>
+    </footer>
 </body>
 </html>
